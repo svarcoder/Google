@@ -1,54 +1,52 @@
+<div align="center" style="margin-top:20px">
+
+### Google Clone Repositories
+
+</div>
+<hr>
+
+## Docs
+
+- [Technical](#contributing)
+  - [Codebase](#codebase)
+    - [Technologies](#technologies)
+    - [Code Style](#code-style)
+  - [First time setup](#first-time-setup)
+  - [Running the app locally](#running-the-app-locally)
+
+#### Technologies
+
+Here is a list of technologies we use:
+
+- **React JS**: Frontend React JS
+- **Firebase**: handle google login in frontend and also use for database.
 
 
-### `npm start`
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Code Style
 
-### Reactjs :- 
+- We follow proper naming convention like for folder we are using `camel Case` for files `Pascal Case` and function name should be in `camel Case`.
+- We are following Prettier to proper format the code.
 
-It is a Javascript library for building UI and SPA .It was developed by Facebook.
+##### Rules
 
-### Create a React App in 5 min :- 
+- **No `console.log`s in any file**: we are removing `console.log` after develping done.
 
-Create Folder for the React App.
-Run below code in Temrinal.
+#### First time setup
 
-### npx create-react-app [app-name]
+The first step to running Google Clone locally is downloading the code by cloning the repository:
 
-After the installation run
+```sh
+git clone https://github.com/svarcoder/Google.git
+```
 
-### cd [app-name]
+After clone install the node modules:
 
-Finally run
+```sh
+yarn install
+```
 
-### npm start
+To start the Next Server locally:
 
-### Why to Choose Firebase ?
-
-Firebase allows you to do almost everything AWS you to. It's 1000X easier than AWS. It can have a hybrid database, scales so well, lightning fast & you can build CRUD functionality within minutes. You don't need a back end like node.js for firebase project.
-
-
-### Firebase Service :- 
-
-Real-time Database.
-Google Analytics.
-Authentication.
-Hosting.
-Cloud Storage.
-and many more....
-
-### Advantages of using firebase :-
-
-Easy to setup.
-Update in rel-time.
-Zero Learning-Curve.
-Build Full backends.
-
-
-
-
-![image](https://res.cloudinary.com/singhprateek089/image/upload/v1599332455/Screenshot_8_clwkcy.png)
-
-![image](https://res.cloudinary.com/singhprateek089/image/upload/v1599332458/Screenshot_9_hvukn3.png)
-
-
-
+```sh
+yarn start
+```
